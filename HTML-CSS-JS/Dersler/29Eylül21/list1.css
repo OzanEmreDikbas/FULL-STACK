@@ -1,0 +1,27 @@
+ol{
+    list-style-type: ":birthday:";
+}
+ul{
+    margin: 5px;
+    padding: 5px;
+}
+ul li{
+    border: 1px solid darkorange;
+    border-radius: 25px;
+    color: blueviolet;
+    margin: 10px;
+    list-style-type: none;
+    background-color: lightgreen;
+    border-left: 5px solid gray;
+}
+ul li:hover{
+    background-color: gray;
+}
+ul li:before{
+    content: "\2764";
+}
+#div1{
+    width: 90%;
+    background-color: rgb(0, 255, 255, 0.5);
+    border-radius: 25px;
+}

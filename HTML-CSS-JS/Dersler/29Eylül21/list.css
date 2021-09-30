@@ -1,0 +1,39 @@
+ol{
+
+    list-style-type:'\2764';
+}
+
+ul{
+    /* margin: 5px;
+    padding: 5px; */
+    /* list-style-type: none; */
+    /* padding: 0px; */
+    }
+
+/* ul li{
+    border: 1px solid darkorange;
+    border-radius: 25px;
+    color: blueviolet;
+    margin: 10px;
+    list-style-type: none;
+    background-color: darkgoldenrod;
+    border-left: 15px solid black;
+    color: white;
+} */
+
+li:hover{
+    background-color: gray;
+
+}
+
+ul li:before{
+    content:'selam ';
+
+}
+
+#div1{
+    width: 90%;
+    background-color:rgb(0, 255, 255, 0.5);
+    border-radius: 25px;
+    height: 300px;
+}

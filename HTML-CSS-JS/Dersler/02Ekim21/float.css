@@ -1,15 +1,15 @@
 #container{
-    /* overflow: auto; */
+    overflow: auto;
     background-color: burlywood;
 }
 img{
     width: 300px;
-    float: right;
+    float: left;
     /* position: absolute; */
     margin: 10px;
 }
 p{
-    /* overflow: auto; */
+    overflow: auto;
     border: 2px solid red;
     text-align: justify;
     clear: right;

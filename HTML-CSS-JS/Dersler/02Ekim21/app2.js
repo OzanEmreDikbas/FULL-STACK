@@ -43,6 +43,10 @@ console.log(`2+3 = ${2+3}`); */
 // console.log(Boolean('Merhaba')); //true
 
 // console.log(Boolean(null)); //false
-console.log(Boolean(8 < 5)); 
-console.log(Boolean(8 < 9)); 
-console.log(Boolean(3.14));
+// console.log(Boolean(8 < 5)); 
+// console.log(Boolean(8 < 9)); 
+// console.log(Boolean(3.14));
+
+
+
+

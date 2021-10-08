@@ -1,38 +1,46 @@
-*{
+* {
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
 }
-header{
+
+header {
     background-color: seagreen;
     margin-bottom: 10px;
 }
-main{
+
+main {
     background-color: skyblue;
     padding: 5px;
     /* overflow: auto; */
 }
-aside{
+
+aside {
     background-color: darkorange;
     width: 25%;
     height: 300px;
     float: left;
     /* margin-left: 10px; */
 }
-article{
+
+article {
     background-color: greenyellow;
     width: 70%;
     height: 300px;
     float: left;
 }
-footer{
+
+footer {
     background-color: coral;
 }
+
+
 /* .clear{
     clear: both;
     border: none;
 } */
-#clearfix::after{
+
+#clearfix::after {
     content: '';
     clear: both;
     display: block;

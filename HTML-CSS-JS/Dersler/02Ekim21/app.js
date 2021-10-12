@@ -1,6 +1,6 @@
-var a = '2'
-var b = '3'
-console.log(a*b);
+// var a = '2'
+// var b = '3'
+// console.log(a * b);
 /* var quantity;
 console.log(quantity);
 quantity = 3;
@@ -171,7 +171,7 @@ console.log('0' == false); */
 // console.log('typeof null equals to', typeof null); 
 // console.log('0 == null equals to', 0 == null); // 
 // console.log('Boolean(null) == Boolean(0)', Boolean(null) == Boolean(0)); */
- 
+
 /* console.log('\n*** undefined boolean operations ***');
 console.log('Boolean(undefined) equals', Boolean(undefined));
 console.log('undefined == false correct?', undefined == false);
@@ -213,10 +213,10 @@ console.log(2 && 3); */
 // console.log(!0);
 
 
-//Nullish
-/* var n;
+Nullish
+var n;
 console.log(n);
-// console.log(null ?? true);
-// console.log((8>9) ?? 0);
-console.log(n ?? 100);
-console.log(100 ?? n); */
+console.log(null ? ? true);
+console.log((8 > 9) ? ? 0);
+console.log(n ? ? 100);
+console.log(100 ? ? n);

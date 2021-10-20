@@ -73,7 +73,7 @@ headerDiv.appendChild(logo);
 let pathList = ["FullStack", "AWS/DEVOPS", "Data Science", "CyberSecurity"];
 let pathSelectBox = document.querySelector("#paths");
 //for
-// for(let i = 0; i<pathList.length; i++){
+// for(let i = 0; i<pathList.length; i++) {
 //     pathSelectBox.innerHTML += `<option>${pathList[i]}</option>`;
 // }
 //for of

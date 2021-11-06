@@ -1,0 +1,70 @@
+* {
+    margin: 0px
+}
+
+;
+$primarycolor:rgb(137, 235, 137);
+$textcolor:#fff;
+$btnColor: brown;
+body {
+    background-color: $primarycolor;
+}
+
+;
+nav {
+    background-color: darkorange;
+}
+
+.left {
+    float: left;
+    list-style: none;
+    li {
+        display: inline-block;
+        &:first-child {
+            font-size: 35px;
+        }
+    }
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+;
+.right {
+    float: right;
+}
+
+.cw,
+.linkedin {
+    padding: 15px;
+    color: $textcolor;
+    display: inline-block;
+    // background-color: brown;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cw,
+.linkedin {
+    &:link {
+        background-color: $btnColor;
+    }
+    &:hover {
+        background-color: lighten($btnColor, 20%)
+    }
+}
+
+$tema: ( "acik":#fff, "koyu":#000, "gri":#aaa, );
+$kalinlik: ( "i":300, "n":400, "k":500, );
+body {
+    background-color: map-get($tema, "gri");
+}
+
+;
+p {
+    font-weight: map-get($kalinlik, "k");
+}

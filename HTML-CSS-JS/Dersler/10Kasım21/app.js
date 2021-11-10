@@ -17,17 +17,17 @@ button.addEventListener('click', () => {
             (Side2 + Side3 > Side1)) {
 
             if (Side1 == Side2 && Side2 == Side3 && Side1 == Side3) {
-                result.innerHTML = 'Equilateral';
+                result.innerHTML = 'Your Triengle is : Equilateral';
 
             } else if (Side1 == Side2 || Side2 == Side3 || Side1 == Side3) {
-                result.innerHTML = 'Isosceles';
+                result.innerHTML = 'Your Triengle is : Isosceles';
 
             } else {
-                result.innerHTML = 'Scalene';
+                result.innerHTML = 'Your Triengle is : Scalene';
             }
 
         } else {
-            result.innerHTML = 'Invalid Triangle; For a shape to be a triangle at all, all sides have to be of length > 0, and the sum of the lengths of any two sides must be greater than the length of the third side.';
+            result.innerHTML = 'Invalid Triangle; \nThe sum of the lengths of any two sides must be greater than the length of the third side.';
 
         }
     } else {

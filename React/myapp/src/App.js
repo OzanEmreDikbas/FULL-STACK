@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1>Age: {age}</h1>
+        {/* <h1>Age: {age}</h1> */}
         <ClassComponent old={age} car = "BMW"/>
         <FuncComp old={age+age} color = "yellow"/>
         {/* <p>

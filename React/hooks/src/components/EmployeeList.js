@@ -1,8 +1,10 @@
-
+import { v4 as uuidv4 } from "uuid";
+import { useState } from "react";
 import Employee from "./Employee";
+
 const EmployeeList = () => {
 
-  const [employees, setEmployees] = useState([
+  const [employees] = useState([
       {
         id: uuidv4(),
         name: "Thomas Hardy",

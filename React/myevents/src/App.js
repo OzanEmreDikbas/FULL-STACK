@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import AddEventsClass from './components/addEventClass/AddEventsClass';
+import AddEvents from './components/addEvents/AddEvents';
+import EventBind from './components/eventBinding/EventBind';
+import MouseEvents from './components/mouseEvents/MouseEvents';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Events in React Js</h1>
+      {/* <AddEvents /> */}
+      {/* <AddEventsClass /> */}
+      {/* <EventBind /> */}
+      <MouseEvents />
     </div>
   );
 }

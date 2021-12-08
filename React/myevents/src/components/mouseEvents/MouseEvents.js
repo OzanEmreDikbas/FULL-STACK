@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './styles.css';
+import './style.css';
 
 const MouseEvents = () => {
   const [coordX, setCoordX] = useState();
@@ -14,8 +14,9 @@ const MouseEvents = () => {
 
   // doubleClick event
   const handleDoubleClick = (e) => {
-    console.log('event', e.target.id);
-    console.log('text', e.target.innerText);
+    // console.log('event', e.target.id);
+    // console.log('text', e.target.innerText);
+    e.target.parentElement.style.display = "none";    
   };
 
   // mouseMove event
@@ -47,8 +48,8 @@ const MouseEvents = () => {
           <li id="todo-1" onClick={handleClick}>
             todo item 1 <span>X</span>
           </li>
-          <li id="todo-2" onDoubleClick={handleDoubleClick}>
-            todo item 2 <span>X</span>
+          <li  id="todo-2">
+            todo item 2 <span onDoubleClick={handleDoubleClick}>X</span>
           </li>
           <li onMouseMove={handleMouseMove}>
             todo item 3 <span>X</span>

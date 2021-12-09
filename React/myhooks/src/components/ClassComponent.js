@@ -1,5 +1,7 @@
 import React from 'react'
 
+import React from 'react'
+
 class ClassComponent extends React.Component {
   constructor() {
     super()
@@ -15,6 +17,10 @@ class ClassComponent extends React.Component {
 
   componentDidUpdate() {
     console.log('Class Comp Updated')
+  }
+
+  componentWillUnmount() {
+    console.log('Class Comp Unmounted')
   }
 
   render() {

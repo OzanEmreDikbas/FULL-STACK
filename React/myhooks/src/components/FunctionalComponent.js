@@ -8,7 +8,14 @@ const FunctionalComponent = () => {
   useEffect(() => {
     // count !== 0 && alert(`new notification, total: ${count} `)
     console.log('UseEffect')
-  }, [count, age])
+    let timeOut = setTimeout(() => {
+      alert('Hello')
+    }, 3000)
+    return () => {
+      clearTimeout(timeOut)
+      console.log('Func Comp Unmounted')
+    } //! clean up
+  }, [count])
 
   const increase = () => setCount(count + 1)
 
